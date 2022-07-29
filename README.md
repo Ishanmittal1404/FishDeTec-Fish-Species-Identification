@@ -17,7 +17,7 @@ Marine fisheries are very important to the economy and well-being of coastal com
        !pip install scikit-learn
        !pip install bs4
  
- - Download the dataset that would be used in all the three files as well as make the images dataset. The dataset can be found [here](https://www.kaggle.com/code/sahilkakad/fish-market-predicting-weight-and-species/data)
+ - Download the dataset that would be used in all the species prediction form images and that is scrapped using google images and later preprocessed. The dataset can be found [here](https://drive.google.com/drive/folders/17P-kXO3Hg0CQh55gfXKyTGEeEl0FslJK?usp=sharing)
  - Use Deepnote to run the code more efficiently and without any hindrance as it provides more RAM and it is possible to run code in the background which doesn't affect the PC performance. 
 
 
@@ -28,4 +28,4 @@ Marine fisheries are very important to the economy and well-being of coastal com
 ## Information about files
 - [Fish Weight Prediction](https://github.com/Ishanmittal1404/Fish-Speceies-Identification/blob/main/Fish%20weight%20Prediction.ipynb) contains the model to get the fish weight the from the given length width and height of the fish. The accuracy of the model was around **94.46%** as well as **74.44%** and uses the dataset above. 
 - [Google Images Scraper](https://github.com/Ishanmittal1404/Fish-Speceies-Identification/blob/main/Google%20Image%20Scrapper.ipynb) scrapes the images related to the fish species, does preprocess on the raw data and stores them in such a way that it could be accessed easily.
-- [Fish Species Prediction](https://github.com/Ishanmittal1404/Fish-Speceies-Identification/blob/main/Fish%20Species%20Prediction.ipynb) contains the model to get the fish species from given images using three-layered sequential model. The testing accuracy of the model was around **95.53%** and the dataset used in the following is the dataset that was built using google images scrapper. The link to the dataset used for training as well as testing can be found [here](https://drive.google.com/drive/folders/17P-kXO3Hg0CQh55gfXKyTGEeEl0FslJK?usp=sharing)
+- [Fish Species Prediction](https://github.com/Ishanmittal1404/Fish-Speceies-Identification/blob/main/Fish%20Species%20Prediction.ipynb) contains the model to get the fish species from given images using three-layered sequential model. The testing accuracy of the model was around **95.53%** and the dataset used in the following is the dataset that was built using google images scrapper. The link to the dataset used for training as well as testing can be found [here]
